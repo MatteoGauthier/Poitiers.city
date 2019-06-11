@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Poitiers.city</title>
+    <!-- Feuille CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/inter-ui@3.7.0/inter.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="master.css">
+    <!-- Script -->
     <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
 </head>
 <body>
     <header>
             <nav class="navbar" role="navigation" aria-label="main navigation">
                 <div class="navbar-brand">
-                    <a class="navbar-item" href="">
+                    <a id="logo-text" class="navbar-item" href="">
                     Poitiers.city
                     </a>
                 
@@ -44,8 +49,19 @@
                             Report an issue
                         </a>
                         </div>
-                    </div> -->                
-                    <div class="navbar-end">
+                    </div> -->
+                    <div class="navbar-end left-nav-top">
+                  
+                        <a href="" class="navbar-item">
+                            <div class="field">
+                                <div class="control has-icons-left has-icons-right">
+                                    <input class="input is-success" type="searching" placeholder="Search">
+                                    <span class="icon is-small is-left">
+                                    <i class="fas fa-search"></i>
+                                    </span>
+                                </div>
+                            </div>
+                        </a>
                         <a class="navbar-item">
                             Infos sur la ville
                         </a>
@@ -57,6 +73,8 @@
                         <a class="navbar-item">
                             Assos
                         </a>
+
+                        
                     </div>
                 </div>
             </nav>
