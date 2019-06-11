@@ -14,6 +14,10 @@ font-style: italic;
 font-weight: bold;
 font-size: 22px;
 
+
+}
+nav a {
+    color: black;
 }
 .atmo {
     background: -webkit-linear-gradient(110.63deg, #33FF60 -29.6%, #000000 93.05%);
